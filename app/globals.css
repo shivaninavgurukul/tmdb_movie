@@ -1,0 +1,336 @@
+/**@media screen and (max-width: 768px) {
+  body {
+    background-color: blue;
+  }
+ 
+ 
+.row1{
+	height:28px;
+}
+.row2{
+	height:72px;
+}
+.row3{
+	height:28px;
+}
+.row4{
+
+}
+.row5{
+	height:30px;
+}
+.row6{
+	height:28px;
+}
+
+.col1{
+    float:left;
+    height:72px;
+    width:72px;
+    margin-left:35px;
+}
+.col2{
+    float:left;
+    height:50px;
+    width:200px;
+    margin-left:20px;
+    margin-top:10px;
+   
+}
+.col3{
+    float:right;
+    height:30px;
+    width:150px;
+    margin-right:35px;
+    line-height:0px;
+    margin-top:30px;
+   
+   
+}
+.col4{
+    float:right;
+    height:30px;
+    width:60px;
+    margin-right:35px;
+    Line-height:0px;
+    margin-top:30px;
+    size:20px;
+}
+.row1_movie_row{
+    height:350px;
+    margin:0px 150px 0px 400px;
+    width:1200px;
+    background-color:black;
+}
+.image{
+    height:320px;
+    width:260px;
+    float:left;
+    background-color:black;
+}
+.Discription{
+    width:927px;
+    height:309px;
+    float:left;
+    margin-left:276px;
+  	padding:23px;
+    background-color:black;
+    margin-top:-369px;
+    
+    
+}
+.size{
+	font-size:35px;
+}
+.sixe{
+	font-size:25px;
+}
+
+.row2_movie_row{
+    height:350px;
+    margin:50px 15px 0px 40px;
+    width:1200px;
+    padding:9px 0px 0px 9px;
+}
+.row6_movie_row{
+    height:40px;
+    width:590px;
+   
+}
+
+
+.Discription{
+    color:white;
+    font-size:16px;
+  
+}
+.action-row{
+    height:43px;
+    width:900px;
+    margin-top:30px;
+     
+}
+
+.like{
+	
+	float:left;
+    height:40px;
+    width:43px;
+}
+.votes{
+    height:35px;
+    width:43px;
+    margin-left: 10px;
+    border:solid 2px white;
+    color:white;
+    border-radius:35px;
+    float:left;
+    margin-top:2px;
+    font-size:25px;
+    text-align:center;
+    line-height:30px;
+}
+.dislike{
+	
+	margin-left: 10px;
+	float:left;
+    height:40px;
+    width:43px;
+    
+   
+}
+.delete{
+	
+	margin-left: 860px;
+	float:left;
+    height:35px;
+    width:43px;
+    margin-top:-35px;
+   
+}**/
+
+/* Default styles for all screen sizes */
+body {
+  background-color: black;
+}
+
+.row1 {
+  height: 28px;
+}
+
+.row2 {
+  height: 72px;
+}
+
+.row3 {
+  height: 28px;
+}
+
+.row4 {
+}
+
+.row5 {
+  height: 30px;
+}
+
+.row6 {
+  height: 28px;
+}
+
+.col1 {
+  float: left;
+  height: 72px;
+  width: 72px;
+  margin-left: 35px;
+}
+
+.col2 {
+  float: left;
+  height: 50px;
+  width: 200px;
+  margin-left: 20px;
+  margin-top: 10px;
+}
+
+.col3 {
+  float: right;
+  height: 30px;
+  width: 150px;
+  margin-right: 35px;
+  line-height: 0px;
+  margin-top: 30px;
+}
+
+.col4 {
+  float: right;
+  height: 30px;
+  width: 60px;
+  margin-right: 35px;
+  line-height: 0px;
+  margin-top: 30px;
+  size: 20px;
+}
+
+.row1_movie_row {
+  height: 350px;
+  margin: 0px 150px 0px 400px;
+  width: 1200px;
+  background-color: black;
+}
+
+.image {
+  height: 320px;
+  width: 260px;
+  float: left;
+  background-color: black;
+}
+
+.Discription {
+  width: 927px;
+  height: 309px;
+  float: left;
+  margin-left: 276px;
+  padding: 23px;
+  background-color: black;
+  margin-top: -369px;
+}
+
+.size {
+  font-size: 35px;
+}
+
+.sixe {
+  font-size: 25px;
+}
+
+.row2_movie_row {
+  height: 350px;
+  margin: 50px 15px 0px 40px;
+  width: 1200px;
+  padding: 9px 0px 0px 9px;
+}
+
+.row6_movie_row {
+  height: 40px;
+  width: 590px;
+}
+
+.Discription {
+  color: white;
+  font-size: 16px;
+}
+
+.action-row {
+  height: 43px;
+  width: 900px;
+  margin-top: -70px;
+  /* display: flex; */
+  /* flex-direction: row-reverse; */
+  margin-left:800px ;
+  
+
+}
+
+.like {
+  float: left;
+  height: 40px;
+  width: 43px;
+  margin-right: auto;
+}
+
+.votes {
+  height: 35px;
+  width: 43px;
+  margin-left: 10px;
+  border: solid 2px white;
+  color: white;
+  border-radius: 35px;
+  float: left;
+  margin-top: 2px;
+  font-size: 25px;
+  text-align: center;
+  line-height: 30px;
+}
+
+.dislike {
+  margin-left: 10px;
+  float: left;
+  height: 40px;
+  width: 43px;
+}
+
+.delete {
+  margin-left: 860px;
+  float: left;
+  height: 35px;
+  width: 43px;
+  margin-top: -35px;
+}
+
+/* Media query for screens with a maximum width of 768px */
+@media screen and (max-width: 768px) {
+  body {
+    background-color: blue; /* Change background color for smaller screens */
+  }
+
+  .col1 {
+    width: 50px; /* Adjust the width of col1 for smaller screens */
+  }
+
+  /* ... (other styles adjustments for smaller screens) ... */
+}
+
+/* Media query for screens with a maximum width of 480px */
+@media screen and (max-width: 480px) {
+  body {
+    background-color: green; /* Change background color for even smaller screens */
+  }
+
+  .col1 {
+    width: 30px; /* Further adjust the width of col1 for very small screens */
+  }
+
+  /* ... (other styles adjustments for very small screens) ... */
+}
+
+

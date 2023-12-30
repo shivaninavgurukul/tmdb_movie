@@ -17,6 +17,3 @@ return (
 
 
 export default App;
-
-
-

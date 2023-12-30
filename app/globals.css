@@ -257,3 +257,18 @@ body {
 .close-btn:hover {
   color: red;
 }
+
+
+.table{
+  padding: 12px;
+  background-color: bisque;
+}
+
+#tab{
+  background-color:palevioletred;
+
+}
+
+th, td {
+  padding: 15px;
+}
